@@ -5,8 +5,8 @@ namespace Tyuiu.AlshinAF.Sprint6.Task0.V12.Lib
     {
         public double Calculate(int x)
         {
-            double y = x;
-            double res = Math.Round((y * y + 1) / (Math.Sqrt(4 * y * y - 3)));
+            
+            double res = Math.Round((x * x + 1) / (Math.Sqrt(4 * x * x - 3)));
             return res;
         }
     }
