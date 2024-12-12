@@ -20,7 +20,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task5.V30.Lib
             }
             double[] numsArray = new double[len];
             int index = 0;
-            using (StreamWriter reader = new StreamWriter(path))
+            using (StreamReader reader = new StreamWriter(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
