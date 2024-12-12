@@ -52,6 +52,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task0.V12
         {
 
         }
+
         private void textBoxVarX_KeyPress_AAF(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 3)
@@ -61,5 +62,9 @@ namespace Tyuiu.AlshinAF.Sprint6.Task0.V12
 
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

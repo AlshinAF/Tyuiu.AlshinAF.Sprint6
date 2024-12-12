@@ -149,7 +149,10 @@
             Controls.Add(textBoxVarX);
             Controls.Add(textBoxTask_AAF);
             Controls.Add(ButtonDone_AAF);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "FormMain";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 0 | Вариант 12 | Альшин А. Ф.";
             Load += FormMain_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_AAF).EndInit();
