@@ -12,13 +12,17 @@ namespace Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    if (line.Contains("n"))
+                    string[] words = line.Split(' ');
+                    foreach (string word in words)
                     {
-                        resStr += " " + line;
+                        if (word.Contains("n"))
+                        {
+                            resStr += word + " ";
+                        }
                     }
                 }
             }
-            return resStr;
+            return resStr.Trim();
 
         }
     }
