@@ -11,7 +11,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    if (line.Contains(str))
+                    if (line.Contains(str) && line.Contains("n"))
                     {
                         resStr = resStr + " " + line;
 
