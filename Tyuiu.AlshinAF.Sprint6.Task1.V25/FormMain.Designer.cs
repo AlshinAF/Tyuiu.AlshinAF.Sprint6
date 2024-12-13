@@ -138,6 +138,7 @@
             Controls.Add(buttonHelp_AAF);
             Controls.Add(buttonDone_AAF);
             Controls.Add(pictureBoxTask_AAF);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
