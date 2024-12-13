@@ -9,20 +9,17 @@ namespace Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib
             string resStr = "";
             using (StreamReader reader = new StreamReader(path))
             {
-                
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
                     if (line.Contains("n"))
                     {
-                        resStr = resStr + " " + line;
-
+                        resStr += " " + line;
                     }
-
                 }
-
             }
             return resStr;
+
         }
     }
 }
