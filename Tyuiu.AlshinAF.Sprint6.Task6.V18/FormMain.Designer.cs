@@ -120,6 +120,7 @@
             Controls.Add(groupBox1);
             Name = "FormMain";
             Text = "Form1";
+            Load += FormMain_Load;
             ResumeLayout(false);
             PerformLayout();
         }
