@@ -5,7 +5,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string str = "";
+
             string resStr = "";
             using (StreamReader reader = new StreamReader(path))
             {
@@ -13,7 +13,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    if (line.Contains(str) && line.Contains("n"))
+                    if (line.Contains("n"))
                     {
                         resStr = resStr + " " + line;
 

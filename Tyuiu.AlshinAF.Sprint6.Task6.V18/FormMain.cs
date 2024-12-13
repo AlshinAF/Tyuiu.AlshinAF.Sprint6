@@ -11,8 +11,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task6.V18
         string openFilePath;
         private void button1_Click(object sender, EventArgs e)
         {
-            string str = "n";
-            textBoxResult.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxResult.Text = ds.CollectTextFromFile(openFilePath);
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
