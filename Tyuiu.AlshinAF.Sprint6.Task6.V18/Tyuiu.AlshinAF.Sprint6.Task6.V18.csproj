@@ -12,4 +12,10 @@
     <ProjectReference Include="..\Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib\Tyuiu.AlshinAF.Sprint6.Task6.V18.Lib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
