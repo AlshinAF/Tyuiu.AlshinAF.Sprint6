@@ -10,7 +10,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task7.V1.Lib
             var lines = File.ReadAllLines(path);
             // Создаем матрицу, основываясь на количестве строк и столбцов
             int rows = lines.Length;
-            int cols = lines[0].Split(',').Length;
+            int cols = lines[0].Split(';').Length;
             int[,] matrix = new int[rows, cols];
 
             // Заполняем матрицу и изменяем значения второго столбца
