@@ -16,7 +16,7 @@ namespace Tyuiu.AlshinAF.Sprint6.Task7.V1.Lib
             // Заполняем матрицу и изменяем значения второго столбца
             for (int i = 0; i < rows; i++)
             {
-                var values = lines[i].Split(',');
+                var values = lines[i].Split(';');
                 for (int j = 0; j < cols; j++)
                 {
                     matrix[i, j] = int.Parse(values[j]);
